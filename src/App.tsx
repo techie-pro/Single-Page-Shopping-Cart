@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Container className='mb-4'>
         <Routes>
-          <Route path='/' element={<Store />}></Route>
+          <Route index element={<Store />}></Route>
         </Routes>
       </Container>
     </ShoppingCartProvider>
